@@ -20,7 +20,7 @@ def main():
     
     """ + Fore.RESET)
     print(Fore.GREEN + "Finished Loading !" + Fore.RESET)
-    
+    print("If you're facing any issue with .py file, try the .exe file !\n")
     amount = int(input('Amount of nitro codes to generate: ))
     value = 1
     while value <= amount:
@@ -36,6 +36,5 @@ def main():
 try:
     main()
 except Exception as e:
-    print("If you're facing any issue with .py file, try the .exe file !")
     print(e)
     pass    
