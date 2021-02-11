@@ -22,7 +22,7 @@ def main():
     print(Fore.GREEN + "Finished Loading !" + Fore.RESET)
     print("If you're facing any issue with .py file, try the .exe file !\n")
     amount = int(input('Amount of nitro codes to generate: ))
-    value = 1
+    value = 10
     while value <= amount:
         code = "https://discord.gift/" + ('').join(random.choices(string.ascii_letters + string.digits, k=16))
         f = open('Codes.txt', "a+")
